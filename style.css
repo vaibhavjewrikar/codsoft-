@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+   
+   
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.navbar{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+   
+}
+.menulogo{
+    justify-content: center;
+    margin-top: 3%;
+       border: 2px solid black;
+    padding: 10px 10px;
+    border-radius: 15px;
+    font-size: large;
+}
+.nav1{
+    display: flex;
+   gap: 5px;
+   font-size: 8px;
+    
+}
+.menu{
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 50px;
+    align-content: center;
+}
+.nav3{
+    display: flex;
+    gap: 5px;
+    
+}
+.nav3{
+    font-size: 8px;
+    
+    
+}
+.login{
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.singup{
+    
+    border: 2px solid rgb(247, 103, 0);
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: rgb(245, 66, 22);
+    color: white;
+}
+.hero{
+    font-size: 120px;
+    position: absolute;
+    top: 35%;
+    left:10%;
+   transform:translate(-50,-50);  
+   animation: floattext 3s ease-in-out infinite; 
+}
+@keyframes floattext {
+    0% { transform: translate(0);}
+    50% { transform: translate(-20px);}
+    100% { transform: translate(0);}
+}
+.animeimage{
+    display: flex;
+   justify-content: center;
+   object-fit: cover;
+   position: absolute;
+  
+   top: 38%;
+   left: 38%;
+   transform: translate(-38,-38);
+   z-index: 1;
+   animation: float 3s ease-in-out infinite;
+   
+   
+}
+
+.an1{
+    
+    object-fit: cover;
+    position: absolute;
+    top: 38%;
+    left: 38%;
+    transform: translate(-38,-38);
+    rotate: -50deg;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    border-radius: 10px;
+    z-index: 1;
+   
+}
+.an2{
+    object-fit: cover;
+    position: absolute;
+    top: 38%;
+    left: 38%;
+    transform: translate(-38,-38);
+    rotate: -40deg;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    border-radius: 10px;
+    z-index: 1;
+ }
+ .an3{
+    object-fit: cover;
+    position: absolute;
+    top: 38%;
+    left: 38%;
+    transform: translate(-38,-38);
+    rotate: -30deg;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    border-radius: 10px;
+    z-index: 1;
+ }
+ .an4{
+    object-fit: cover;
+    position: absolute;
+    top: 38%;
+    left: 38%;
+    transform: translate(-38,-38);
+    rotate: +10deg;
+     border: 5px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    z-index: 1;
+   
+ }
+ @keyframes float {
+    0% { transform: translate(0);}
+    50% { transform: translate(-20px);}
+    100% { transform: translate(0);}
+ }
+ .an1{
+   transform: translate(-38,-38) rotate(-50deg);
+ }
+ .an2{
+    transform: translate(-38,-38) rotate(-50deg);
+ }
+ .an3{
+    transform: translate(-50,-50) rotate(-50deg);
+ }
+ .footer{
+ 
+  position: absolute;
+  left: 88%;
+  top: 95%;
+
+ }
+ .vaib{
+    
+    font-size: 10px;
+    
+    display: flex;
+
+    
+ }
+ .footer1{
+    position: absolute;
+    top: 80%;
+    right: 50%;
+    text-decoration: none;
+    
+ }
+ .insta{
+    text-decoration: none;
+    color: black;
+ }
+ .linkedin{
+    text-decoration: none;
+    color: black;
+ }
+ .marquee{
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    
+ }
+ .marquee span{
+    display: inline-block;
+    padding-left: 100%;
+    animation: marqueespan 7s linear infinite;
+ }
+ @keyframes marquee {
+    0% { transform: translate(100%,0);}
+    100% { transform: translate(-100%,0);}
+
+ }
+ @keyframes marqueespan {
+    0% { transform: translate(100%,0);}
+    100% { transform: translate(-100%,0);}
+
+ }
+ .marquee{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+ }
+ .ba{
+    background-color: rgb(255, 0, 0);
+ }
