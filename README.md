@@ -74,7 +74,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Vaibhav Jethva - [vaibhavje188@gmail.com](mailto:vaibhavje188@gmail.com)
+Vaibhav Jeweikar - [vaibhavje188@gmail.com](mailto:vaibhavje188@gmail.com)
 
 Project Link: [https://github.com/yourusername/anime-landing-page](https://github.com/yourusername/anime-landing-page)
 ```
