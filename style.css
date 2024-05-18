@@ -69,7 +69,8 @@ html,body{
     color: white;
 }
 .hero{
-    font-size: 90px;
+    width:100%;
+    font-size: 120px;
     position: absolute;
     top: 35%;
     left:10%;
